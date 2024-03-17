@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  height: 100vh; /* Set the height of the body to full viewport height */
+  display: flex;
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+  position: absolute 
+}
+
+.section-3,
+.section-3 * {
+box-sizing: border-box;
+}
+.section-3 {
+background: rgba(64, 64, 64, 0);
+width: 1313px;
+height: 100vh;
+position: absolute;
+}
+
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #b4b4b4;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+
+.section-2 {
+background: #ffffff;
+width: 684px;
+height: 844px;
+position: absolute;
+left: 629px;
+top: 0px;
+}
+.sign-up-to-get-started {
+color: #000000;
+text-align: left;
+font-family: "Inter-Light", sans-serif;
+font-size: 14px;
+font-weight: 300;
+position: absolute;
+left: calc(50% - 102px);
+top: 286px;
+width: 322px;
+height: 21px;
+}
+.rectangle-5 {
+border-radius: 0px;
+width: 342px;
+height: 50px;
+position: absolute;
+left: 240px;
+top: 522px;
+overflow: visible;
+}
+.register {
+color: #ffffff;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 16px;
+font-weight: 700;
+position: absolute;
+left: calc(50% - -21px);
+top: 538px;
+width: 321px;
+height: 21px;
+}
+.rectangle-2 {
+border-radius: 0px;
+width: 342px;
+height: 47px;
+position: absolute;
+left: 240px;
+top: 323px;
+overflow: visible;
+}
+.rectangle-4 {
+border-radius: 0px;
+width: 342px;
+height: 50px;
+position: absolute;
+left: 240px;
+top: 455px;
+overflow: visible;
+}
+.rectangle-3 {
+border-radius: 0px;
+width: 342px;
+height: 50px;
+position: absolute;
+left: 240px;
+top: 386px;
+overflow: visible;
+}
+.password {
+color:  black;;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 16px;
+position: absolute;
+left: calc(50% - 42px);
+top: 468px;
+width: auto;
+height: 22px;
+}
+.email-address {
+color:  black;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 16px;
+font-weight: 700;
+position: absolute;
+left: calc(50% - 42px);
+top: 401px;
+width: auto;
+height: 22px;
+}
+.hello {
+color: #000000;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 32px;
+font-weight: 700;
+position: absolute;
+left: 240px;
+top: 244px;
+width: 103px;
+height: 44px;
+}
+.school-name {
+color: black;
+text-align: left;
+font-family: "Inter-Bold", sans-serif;
+font-size: 16px;
+font-weight: 700;
+position: absolute;
+left: calc(50% - 42px);
+top: 337px;
+width: auto;
+height: 21px;
+}
+.user {
+width: 40px;
+height: 35px;
+position: absolute;
+left: 253px;
+top: 330px;
+object-fit: cover;
+}
+.gmail-logo {
+width: 40px;
+height: 29px;
+position: absolute;
+left: 253px;
+top: 397px;
+object-fit: cover;
+}
+.lock {
+width: 33px;
+height: 47px;
+position: absolute;
+left: 256px;
+top: 453px;
+object-fit: cover;
+}
+.section-1 {
+background: #000000;
+width: 680px;
+height: 100vh;
+position: absolute;
+left: 0px;
+top: 0px;
+}
+.ellipse-3 {
+width: 405px;
+height: 134px;
+position: absolute;
+left: 140px;
+top: 0px;
+overflow: visible;
+}
+.ellipse-5 {
+width: 227px;
+height: 46px;
+position: absolute;
+left: 236px;
+top: 1px;
+overflow: visible;
+}
+.ellipse-6 {
+width: 335px;
+height: 94px;
+position: absolute;
+left: 179px;
+top: 0px;
+overflow: visible;
+}
+.title {
+  color: white;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 39px;
+  top: 284px;
+  width: 559px;
+  height: auto; /* Adjusted to auto for variable height with line breaks */
+  white-space: pre; /* Preserve white spaces, including line breaks */
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2.9em;
+  animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+  line-height: 1.8;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.ellipse-7 {
+width: 388px;
+height: 201px;
+position: absolute;
+left: 0px;
+top: 642px;
+overflow: visible;
+}
+.ellipse-8 {
+width: 331.2px;
+height: 224px;
+position: absolute;
+left: 0px;
+top: 620px;
+overflow: visible;
+}
+
+
+.bn54 {
+  text-decoration: none; /* Add this line to remove underline */
+  /* Other existing styles remain unchanged */
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 45px;
+  width: 343px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  background-color: #000000;
+  bottom: -520px;
+  left: 240px;
+}
+
+.bn54 .bn54span {
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  font-size: 14px; /* Adjust the font size to make it a little bigger */
+  font-weight: bold; /* Make the font bold */
+  letter-spacing: 1.9px;
+}
+
+.bn54:hover {
+  animation: bn54rotate 0.7s ease-in-out both;
+}
+
+.bn54:hover .bn54span {
+  animation: bn54storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes bn54rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bn54storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+
+.login {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 187px;
+  top: 575px;
+  width: 163px;
+  height: 51px;
+  text-align: left;
+  font-family: "Inter-Light", sans-serif;
+  font-weight: 300;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 39px;
+}
+
+.login:hover {
+  background: #eee;
+  border-radius: 8px;
+}

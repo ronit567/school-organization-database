@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    height: 100vh; /* Set the height of the body to full viewport height */
+    display: flex;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    background-color: #d9d4d4;
+  }
+
+.rectangle-6 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 1032px;
+  height: 599px;
+  position: absolute;
+  left: 192px;
+  top: 76px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-5 {
+  border-radius: 0px;
+  width: 342px;
+  height: 42px;
+  position: absolute;
+  left: 819px;
+  top: 594px;
+  overflow: visible;
+}
+.rectangle-16 {
+  border-radius: 0px;
+  width: 277px;
+  height: 49px;
+  position: absolute;
+  left: 227px;
+  top: 334px;
+  overflow: visible;
+}
+.gmail-logo {
+  width: 51px;
+  height: 37px;
+  position: absolute;
+  left: 237px;
+  top: 340px;
+  object-fit: cover;
+}
+.rectangle-17 {
+  border-radius: 0px;
+  width: 277px;
+  height: 47px;
+  position: absolute;
+  left: 227px;
+  top: 269px;
+  overflow: visible;
+}
+.organization-name {
+    color: #515151;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    position: absolute;
+    left: 290px;
+    top: 283px;
+    width: 205px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  .change {
+    color: #515151;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    position: absolute;
+    left: 290px;
+    top: 350px;
+    width: 192px;
+    height: 18px;
+    outline: none;
+  }
+.rectangle-15 {
+  border-radius: 0px;
+  width: 542px;
+  height: 232px;
+  position: absolute;
+  left: 227px;
+  top: 410px;
+  overflow: visible;
+}
+.edit-a-partner {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  position: absolute;
+  left: 227px;
+  top: 194px;
+  width: 452px;
+  height: 34px;
+}
+
+.description { 
+    color: #515151;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    position: absolute;
+    left: 250px;
+    top: 437px;
+    width: 474px;
+    height: 196px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    z-index: 50px;
+  }
+  
+.add-contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -271.5px);
+  top: 603px;
+  width: 294px;
+  height: 20px;
+}
+.user {
+  width: 47px;
+  height: 39px;
+  position: absolute;
+  left: 239px;
+  top: 272px;
+  object-fit: cover;
+}
+.rectangle-7 {
+  background: #000000;
+  width: 1032px;
+  height: 33px;
+  position: absolute;
+  left: 192px;
+  top: 90px;
+}
+.rectangle-8 {
+  border-radius: 0px;
+  width: 82px;
+  height: 11px;
+  position: absolute;
+  left: 783px;
+  top: 100px;
+  overflow: visible;
+}
+.rectangle-11 {
+  border-radius: 0px;
+  width: 80px;
+  height: 11px;
+  position: absolute;
+  left: 1005px;
+  top: 100px;
+  overflow: visible;
+}
+.rectangle-12 {
+  border-radius: 0px;
+  width: 81px;
+  height: 11px;
+  position: absolute;
+  left: 1112px;
+  top: 100px;
+  overflow: visible;
+}
+.rectangle-10 {
+  border-radius: 0px;
+  width: 81px;
+  height: 11px;
+  position: absolute;
+  left: 897px;
+  top: 100px;
+  overflow: visible;
+}
+.ellipse-9 {
+  width: 400.99px;
+  height: 283.11px;
+  position: absolute;
+  left: 819px;
+  top: 127px;
+  overflow: visible;
+}
+._32355-1 {
+  width: 338px;
+  height: 338px;
+  position: absolute;
+  left: 850px;
+  top: 156px;
+  object-fit: cover;
+}
+
+.greybox{
+    width: 500px;
+    background-color: aqua;
+}
+
+.add-contact {
+    text-decoration: none; /* Add this line to remove underline */
+    /* Other existing styles remain unchanged */
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 45px;
+    width: 343px;
+    opacity: 1;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: #000000;
+    bottom: -598px;
+    left: 815px;
+  }
+  
+  .add-contact .add-contactspan {
+    font-family: "Inter-Bold", sans-serif;
+    color: white;
+    font-size: 14px; /* Adjust the font size to make it a little bigger */
+    font-weight: bold; /* Make the font bold */
+    letter-spacing: 1.9px;
+  }
+  
+  .add-contact:hover {
+    animation: add-contactrotate 0.7s ease-in-out both;
+  }
+  
+  .add-contact:hover .add-contactspan {
+    animation:  add-contactstorm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+  }
+  
+  @keyframes add-contactrotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes add-contactstorm {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  }
+
+  .edit-paste-16-svgrepo-com-1 {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    height: 371px;
+    position: relative;
+    left: 800px;
+    top: 110px;
+    overflow: hidden;
+  }
+  .layer-1 {
+    height: auto;
+    position: absolute;
+    right: 6.25%;
+    left: 6.25%;
+    width: 87.5%;
+    bottom: 6.25%;
+    top: 0%;
+    height: 93.75%;
+    overflow: visible;
+    outline: none;
+  }
+  

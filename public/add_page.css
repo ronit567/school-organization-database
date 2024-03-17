@@ -1,0 +1,346 @@
+.section-4,
+.section-4 * {
+  box-sizing: border-box;
+}
+
+.frame-1 {
+  background: #d9d4d4;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  overflow: hidden;
+}
+
+.rectangle-6 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 1032px;
+  height: 592px;
+  position: absolute;
+  left: 192px;
+  top: 93px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-5 {
+  border-radius: 0px;
+  width: 342px;
+  height: 42px;
+  position: absolute;
+  left: 819px;
+  top: 594px;
+  overflow: visible;
+}
+.rectangle-14 {
+  border-radius: 0px;
+  width: 277px;
+  height: 47px;
+  position: absolute;
+  left: 217px;
+  top: 339px;
+  overflow: visible;
+}
+.rectangle-16 {
+  border-radius: 0px;
+  width: 277px;
+  height: 49px;
+  position: absolute;
+  left: 217px;
+  top: 267px;
+  overflow: visible;
+}
+.gmail-logo {
+  width: 51px;
+  height: 37px;
+  position: absolute;
+  left: 227px;
+  top: 275px;
+  object-fit: cover;
+}
+.rectangle-17 {
+  border-radius: 0px;
+  width: 277px;
+  height: 47px;
+  position: absolute;
+  left: 217px;
+  top: 202px;
+  overflow: visible;
+}
+.organization-name {
+  color: #515151;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  left: 280px;
+  top: 214px;
+  width: 205px;
+  height: 20px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.phone-number {
+  color: #515151;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  left: 282px;
+  top: 352px;
+  width: 192px;
+  height: 20px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.gmail {
+  color: #515151;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  left: 280px;
+  top: 283px;
+  width: 192px;
+  height: 18px;
+  outline: none;
+}
+.rectangle-15 {
+  border-radius: 0px;
+  width: 550px;
+  height: 224px;
+  position: absolute;
+  left: 219px;
+  top: 418px;
+  overflow: visible;
+}
+.rectangle-18 {
+  border-radius: 0px;
+  width: 230px;
+  height: 191px;
+  position: absolute;
+  left: 527px;
+  top: 198px;
+  overflow: visible;
+}
+.additional-info {
+  color: #515151;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 550px;
+  top: 213px;
+  width: 189px;
+  height: 162px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.add-a-partner  {
+  width: 320px;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  position: absolute;
+  left: 217px;
+  top: 133px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+.description { 
+  color: #515151;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  left: 250px;
+  top: 437px;
+  width: 474px;
+  height: 196px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.user {
+  width: 47px;
+  height: 39px;
+  position: absolute;
+  left: 229px;
+  top: 205px;
+  object-fit: cover;
+}
+.rectangle-7 {
+  background: #000000;
+  width: 1032px;
+  height: 33px;
+  position: absolute;
+  left: 192px;
+  top: 90px;
+}
+.rectangle-8 {
+  border-radius: 0px;
+  width: 82px;
+  height: 11px;
+  position: absolute;
+  left: 783px;
+  top: 100px;
+  overflow: visible;
+}
+.rectangle-11 {
+  border-radius: 0px;
+  width: 80px;
+  height: 11px;
+  position: absolute;
+  left: 1005px;
+  top: 100px;
+  overflow: visible;
+}
+.rectangle-12 {
+  border-radius: 0px;
+  width: 81px;
+  height: 11px;
+  position: absolute;
+  left: 1112px;
+  top: 100px;
+  overflow: visible;
+}
+.rectangle-10 {
+  border-radius: 0px;
+  width: 81px;
+  height: 11px;
+  position: absolute;
+  left: 897px;
+  top: 100px;
+  overflow: visible;
+}
+.ellipse-9 {
+  width: 360px;
+  height: 287px;
+  position: absolute;
+  left: 864px;
+  top: 241px;
+  overflow: visible;
+}
+.phone-bubble {
+  width: 73.57px;
+  height: 75.76px;
+  position: absolute;
+  left: 209.12px;
+  top: 343px;
+  transform-origin: 0 0;
+  transform: rotate(-25.976deg) scale(1.014, 0.985);
+  object-fit: contain;
+}
+.incoming-mail-svgrepo-com-1 {
+  width: 415px;
+  height: 401px;
+  position: absolute;
+  left: 797px;
+  top: 150px;
+  overflow: visible;
+}
+
+.add-contact {
+  text-decoration: none; /* Add this line to remove underline */
+  /* Other existing styles remain unchanged */
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 45px;
+  width: 343px;
+  opacity: 1;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  background-color: #000000;
+  bottom: -598px;
+  left: 815px;
+}
+
+.add-contact .add-contactspan {
+  font-family: "Inter-Bold", sans-serif;
+  color: white;
+  font-size: 14px; /* Adjust the font size to make it a little bigger */
+  font-weight: bold; /* Make the font bold */
+  letter-spacing: 1.9px;
+}
+
+.add-contact:hover {
+  animation: add-contactrotate 0.7s ease-in-out both;
+}
+
+.add-contact:hover .add-contactspan {
+  animation:  add-contactstorm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes add-contactrotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes add-contactstorm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}

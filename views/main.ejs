@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>Main Page</title>
+</head>
+<body>
+  <body>
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <form action="/number" method="post"> 
+            <button type="submit">Phone Number Included</button>
+          </form>
+          <form action="/additional" method="post"> 
+            <button>Additional Info Included</button>
+          </form>
+          <form action="/AJ" method="post"> 
+            <button>Only A-J</button>
+          </form>
+        </div>
+    </div>
+</body>
+  
+  <div class="container">
+    <% for (let i = 0; i < listItems.length; i++) { %>
+        <% const item = listItems[i]; %>
+        <form action="/delete" method="post"> 
+          <button class = deleteButton name="delete" value=" <%= item.id %>" ><span class="text">Delete </span><span class="icon" value=" <%= item.id %>" ><svg class ="svg" value=" <%= item.id %>" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"></path></svg></span></button>
+        </form>
+          <div>
+            <input id="star<%= item.id %>" class="star" value=" <%= item.id %>" name = "starCheckbox"  type="checkbox" title="bookmark page"><br/><br/>
+            </div>  
+            <div class = "box"> 
+            <div class="organization-name"> 
+                <p><%= item.name %></p>
+            </div>
+            <div class="someone-gmail-com">                     
+                <p><%= item.email %></p>
+            </div>
+            <div class="_555-555-5555"> 
+                <p><%= item.phone_number %></p>
+            </div>
+            <div class="description"> 
+                <p><%= item.description %></p>
+            </div>
+            <div class="additional-information"> 
+              <p><%= item.additional_info %></p>
+          </div>
+        </div>   
+      </div>    
+    <% } %>
+</div>
+
+
+    <div class="schoolname"> 
+      <p><%= userSchool %></p>
+    </div>
+
+
+  <img class="search" src="/img/search.png" />
+    <div class="section-5">
+        <div class="frame-2">
+          <div class="school-connect-partners">SchoolConnect Partners</div>
+          <svg
+            class="global-partner-svgrepo-com-1"
+            width="83"
+            height="70"
+            viewBox="0 0 83 70"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_46_44)">
+              <path
+                d="M10.624 20.475H24.5913C23.2037 24.8238 22.41 29.7588 22.41 35H24.2775C24.2775 29.7281 25.079 24.7778 26.4692 20.475H40.5663V35H42.4338V20.475H56.5308C57.921 24.7778 58.7225 29.7281 58.7225 35H60.5926C60.5926 29.7588 59.7989 24.8238 58.4138 20.475H72.3786C75.2369 24.7778 76.8813 29.7281 76.8813 35H78.7514C78.7514 17.6794 62.0425 3.58752 41.5052 3.58752C20.9679 3.58752 4.25375 17.6794 4.25375 35H6.12125C6.12125 29.7281 7.76569 24.7778 10.624 20.475ZM27.0217 18.9C29.9293 11.0775 34.8833 5.77502 40.5663 5.24346V18.9H27.0217ZM42.4338 18.9V5.24346C48.1167 5.77502 53.0681 11.0775 55.9783 18.9H42.4338ZM71.2399 18.9H57.8614C55.6904 12.9522 52.3678 8.28409 48.3916 5.74002C57.9599 7.34127 66.1303 12.2107 71.2399 18.9ZM34.6084 5.74002C30.6348 8.28409 27.3096 12.9522 25.1412 18.9H11.7601C16.8698 12.2107 25.0401 7.34127 34.6084 5.74002ZM58.7225 41.5625V42.7438L49.2813 40.775H42.151C40.6674 40.775 39.2357 41.23 38.1229 42.0547L36.8935 42.9625H24.2775V41.5625C24.2775 41.1272 23.8599 40.775 23.3438 40.775H5.1875V42.3522H22.41V60.4625H5.1875V62.0397H23.3438C23.8599 62.0397 24.2775 61.6875 24.2775 61.2522V59.8522H26.7519L32.3233 66.5066C33.0184 67.1607 33.9833 67.4975 34.956 67.4975C35.6615 67.4975 36.3696 67.3203 36.9843 66.955L38.6521 65.9663C38.7506 65.9969 38.8284 66.0582 38.9322 66.0822C39.2357 66.1478 39.5417 66.1828 39.8452 66.1828C40.4573 66.1828 41.0617 66.0472 41.6038 65.7803L43.7618 64.7303C44.156 64.8528 44.5632 64.9382 44.986 64.9382C45.5826 64.9382 46.1895 64.8091 46.7446 64.54L48.9052 63.4878C49.2994 63.6103 49.7066 63.6957 50.1294 63.6957C50.726 63.6957 51.3355 63.5666 51.8906 63.2975C53.3483 62.5866 53.9085 61.1319 53.4287 59.85H58.7251V61.25C58.7251 61.6853 59.1427 62.0375 59.6588 62.0375H77.8151V60.4625H60.5926V42.35H77.8125V40.775H59.6563C59.1401 40.775 58.7225 41.1272 58.7225 41.5625ZM50.9542 61.9347C50.1631 62.3197 49.1412 62.09 48.6847 61.4228L44.7941 55.7397L43.1756 56.525L47.2478 62.475L45.8108 63.1728C45.0171 63.5644 44.0004 63.3303 43.5413 62.6632L40.9475 58.8744L40.2991 57.9272L38.6832 58.7125L39.3316 59.6575L41.9254 63.4463L41.9306 63.4507L42.1095 63.711L40.67 64.411C40.2913 64.5991 39.8452 64.6472 39.4172 64.551C38.9893 64.4547 38.6339 64.225 38.4108 63.9057L35.8119 60.1103L34.1934 60.8956L36.7872 64.6844L36.7923 64.691L37.0102 65.0082L35.9105 65.6622C35.2231 66.0713 34.2816 65.9794 33.7836 65.5222L27.9995 58.6053C27.8232 58.3953 27.5404 58.2707 27.237 58.2707H24.2775V44.5375H34.7563L29.8644 48.1469C29.5013 48.4116 29.2834 48.7966 29.2679 49.1991C29.2497 49.6038 29.4339 49.9997 29.7763 50.2863C31.9861 52.15 35.4929 52.3119 37.931 50.6669L40.5325 48.9103H44.82L51.5612 60.0185C52.0151 60.69 51.7427 61.5497 50.9542 61.9347ZM52.5935 58.275L46.2206 47.7663C46.0598 47.5038 45.7382 47.3375 45.3906 47.3375H40.2031C39.9904 47.3375 39.7855 47.3988 39.6195 47.5103L36.7612 49.4397C35.0675 50.5816 32.6346 50.4722 31.0913 49.3347L39.3524 43.2382C40.1253 42.665 41.1187 42.3522 42.151 42.3522L49.0556 42.3282L58.7225 44.3669V58.275H52.5935Z"
+                fill="black"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_46_44">
+                <rect width="83" height="70" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <form action="/add" method="POST" >
+          <button type="submit" name = "add"  value="true" class="add-organization">Add Organization</button>
+          </form>
+
+          <form action="/logout" method="POST" >
+            <button type="submit" name = "add"  value="true" class="log-out">Log Out</button>
+            </form>
+        
+            <form action="/edit" method="GET" >
+              <button type="submit" name = "add"  value="true" class="edit">Edit Organization</button>
+              </form>
+
+       
+            <path
+              d="M0 30C0 13.4315 13.4315 0 30 0H811C827.569 0 841 13.4315 841 30V189C841 205.569 827.569 219 811 219H30C13.4315 219 0 205.569 0 189V30Z"
+              fill="#D8D8D8"
+              fill-opacity="0.5"
+            />
+          </svg>
+
+    
+          </svg>
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+          <div class="line-4"></div>
+        </div>
+        <div class="div">
+          <div class="search-the-database">Search The Database!</div>
+        </div>
+      </div>      
+
+      <div class="input-box">
+        <input type="text" class="rectangle-2-input" placeholder="Enter text...">
+      </div>
+      <svg
+      class="ellipse-9"
+      width="977"
+      height="361"
+      viewBox="0 0 977 361"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M977 80.0781C977 173.628 977 120.546 977 360.372C490.459 363.06 2.18763e-05 365.559 0 175.607C-1.7915e-05 20.0508 467.738 -10.0433 977 2.5735C977 152.674 977 -13.4722 977 80.0781Z"
+        fill="#D9D9D9"
+        fill-opacity="0.26"
+      />
+    </svg>
+
+    <path
+      d="M0 20C0 8.9543 8.9543 0 20 0H767C778.046 0 787 8.``95431 787 20V32C787 43.0457 778.046 52 767 52H20C8.95432 52 0 43.0457 0 32V20Z"
+      fill="white"
+    />
+  </svg>
+    
+</body>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.querySelector('.rectangle-2-input');
+    const boxes = document.querySelectorAll('.box');
+    const deleteButtons = document.querySelectorAll('.deleteButton');
+    const star = document.querySelectorAll('.star');
+
+
+    searchInput.addEventListener('input', function() {
+      const searchTerm = this.value.trim().toLowerCase();
+
+      boxes.forEach((box, index) => {
+        const organizationName = box.querySelector('.organization-name p').textContent.trim().toLowerCase();
+
+        if (organizationName.includes(searchTerm)) {
+          box.style.display = 'block'; // Show box if it matches search term
+          deleteButtons[index].style.display = 'block'; // Show corresponding delete button
+          star[index].style.display = 'block'
+    
+        } else {
+          box.style.display = 'none'; // Hide box if it doesn't match search term
+          deleteButtons[index].style.display = 'none'; // Hide corresponding delete button
+          star[index].style.display = 'none'
+        } 
+      });
+    });
+  });
+
+</script>
+</html>

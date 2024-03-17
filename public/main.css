@@ -1,0 +1,499 @@
+body {
+  overflow-y: auto; /* vertical scrolling */
+  overflow-x: hidden; /* horizontal scrolling */
+}
+
+.section-5 {
+  height: 100vh;
+  top:-5px
+  
+}
+
+.school-connect-partners  {
+  width: 380px;
+  animation: typing 2.7s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  color: #000000;
+  text-align: left;
+  color: #000000;
+  font-size: 38px;
+  font-weight: 500;
+  position: absolute;
+  left: 125px;
+  top:36px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+.global-partner-svgrepo-com-1 {
+  width: 83px;
+  height: 70px;
+  position: absolute;
+  left: 24px;
+  top: 18px;
+  overflow: visible;
+}
+.add-organization {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - -210px);
+  top: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 276px;
+  height: auto;
+  padding: 14px 39px;
+  z-index: 10000000;
+  border: none; /* Remove the border */
+  cursor: pointer; /* Add cursor pointer to indicate interactivity */
+  background-color: transparent;
+
+}
+
+.add-organization:hover {
+  background: #eee;
+  border-radius: 13px;
+  z-index: 1;
+  right: 200px; 
+  color: black; 
+}
+
+.log-out {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - -495.5px);
+  top: 31px;
+  z-index: 60;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 53px;
+  padding: 14px 39px;
+  border: none; /* Remove the border */
+  cursor: pointer; /* Add cursor pointer to indicate interactivity */
+  background-color: transparent;
+
+}
+
+.log-out:hover {
+  background: #eee;
+  border-radius: 13px;
+  z-index: 1;
+  color: black;
+
+}
+
+
+
+.description {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-ExtraLight", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  position: relative;
+  left: 20px;
+  width: 805px;
+  bottom: 60px;
+  height: auto;
+}
+.additional-information {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  left: 20px;
+  width: 780px;
+  height: 0px;
+  display: inline-block;
+  bottom: 50px
+}
+
+.organization-name {
+  color: black;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  height: 42px;
+  z-index: 2;
+  width: 600px;
+  display: inline
+}
+.someone-gmail-com {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter- ExtraLight", sans-serif;
+  font-size: 16px;
+  position: relative;
+  top: 7px;
+  left: 20px;
+  width: 251px;
+  height: 42px;
+}
+
+._555-555-5555 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-ExtraLight", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  position: relative;
+  top: -50px;
+  width: 251px;
+  height: 42px;
+  margin-left: 290px;
+  display: inline-block;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 15.56px;
+  height: 0px;
+  position: absolute;
+  left: 1162.5px;
+  top: 54px;
+  transform-origin: 0 0;
+  transform: rotate(45deg) scale(1, 1);
+  z-index: 2;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 15.56px;
+  height: 0px;
+  position: absolute;
+  left: 1185px;
+  top: 55px;
+  transform-origin: 0 0;
+  transform: rotate(135deg) scale(1, 1);
+  z-index: 2;
+}
+.line-3 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 15.56px;
+  height: 0px;
+  position: absolute;
+  left: 1349px;
+  top: 55px;
+  transform-origin: 0 0;
+  transform: rotate(45deg) scale(1, 1);
+  z-index: 4
+}
+.line-4 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 15.56px;
+  height: 0px;
+  position: absolute;
+  left: 1371px;
+  top: 55px;
+  transform-origin: 0 0;
+  transform: rotate(135deg) scale(1, 1);  
+  z-index: 5
+}
+
+.div {
+  background: #000000;
+  width: 1482px;
+  height: 199px;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  z-index: -30000000;
+}
+.search-the-database {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  position: absolute;
+  left: 509px;
+  top: 22px;
+}
+.ellipse-9 {
+  width: 760.5px;
+  height: 182.41px;
+  position: absolute;
+  left: 852.5px;
+  top: 108.03px;
+  overflow: visible;
+  z-index: 6000;
+  color: whitesmoke;
+  z-index: -1000000
+}
+
+
+
+.search {
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  left: 405px;
+  top: 184px;
+  object-fit: contain;
+  z-index: 1028191280812;
+
+}
+
+
+.trash {
+  width: 66px;
+  height: 65px;
+  position: relative;
+  left: 1198px;
+  top: 422px;
+  object-fit: cover;
+}
+
+
+
+/* Search Field */
+.input-box {
+  width: 642px;
+  height: 45px;
+  position: absolute;
+  top: 180px;
+  left: 400px;
+}
+
+.rectangle-2-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+  font-size: 22px; /* Adjusted font size */
+  color: black;
+  outline: none;
+  text-align: left; /* Aligning text to the right */
+  padding-left: 50px
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+
+
+*, *:before, *:after {
+    -webkit-border-sizing: border-box;
+    -moz-border-sizing: border-box;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  right: 1170px;
+  top: -25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #f9f9f9;
+  border: none;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content button:hover {
+  background-color: #e9e9e9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown .dropbtn {
+  font-weight: bold;
+  background-color: #000000;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  width: 210px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown .dropbtn:hover {
+  background-color: #b2b2b2;
+}
+
+
+.box {
+  height: auto;
+  width: 841px;
+  background-color: rgb(234, 234, 234);
+  border-radius: 15px;
+  position: relative; /* Change absolute to relative */
+  
+  top: 165px;
+  left: 300px;
+  margin-bottom: -80px;
+  z-index: -3292
+}
+
+
+
+
+
+button {
+ width: 150px;
+ height: 50px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ background: rgb(122, 121, 121);;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+ left: 1180px;
+ top: 360px;
+ position: relative;
+}
+
+button, button span {
+ transition: 200ms;
+}
+
+button .text {
+ transform: translateX(29px);
+ color: white;
+ font-weight: bold;
+}
+
+button .icon {
+ position: absolute;
+ border-left: 1px solid black;
+ transform: translateX(100px);
+ height: 40px;
+ width: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+button svg {
+ width: 15px;
+ fill: #eee;
+}
+
+button:hover {
+ background: black;
+ color: white
+}
+
+button:hover .text {
+ color: transparent;
+}
+
+button:hover .icon {
+ width: 150px;
+ border-left: none;
+ transform: translateX(-5px);
+}
+
+button:focus {
+ outline: none;
+}
+
+button:active .icon svg {
+ transform: scale(0.8);
+}
+.star {
+  visibility:hidden;
+  font-size:30px;
+  cursor:pointer;
+}
+.star:before {
+ content: "\2605";
+ visibility:visible;
+ position: relative;
+ left: 1232px;
+ top: 370px
+}
+.star:checked:before {
+ content: "\2606";
+ position: relative;
+ color: black;
+}
+
+.schoolname {
+  font-family: Arial, sans-serif; /* Set font to Arial with fallback to generic sans-serif */
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 243px;
+  right: 950px;
+  font-weight: bold;
+  width: 400px;
+}
+
+
+.edit {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - 90px);
+  top: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 276px;
+  height: auto;
+  padding: 14px 39px;
+  z-index: 10000000;
+  border: none; /* Remove the border */
+  cursor: pointer; /* Add cursor pointer to indicate interactivity */
+  background-color: transparent;
+
+}
