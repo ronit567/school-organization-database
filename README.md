@@ -1,1 +1,1 @@
-This project has been successfully deployed and garnered recognition as a national finalist in the Canadian Leadership Conference. It offers a comprehensive system for schools to manage their partnerships, with all data securely stored in PostgreSQL. School administrators can effortlessly add, edit, view, and delete various partner organizations. The platform enables the management of organizations' contact information, descriptions, and an array of additional features tailored to meet the diverse needs of educational institutions and their partners
+
